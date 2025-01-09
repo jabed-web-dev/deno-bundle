@@ -1,6 +1,6 @@
 #!/usr/bin/env deno run -RWE --allow-run
 
-import { bundle } from "jsr:@deno/emit";
+import { bundle } from "jsr:@deno/emit@0.46.0";
 
 interface BundleOptions {
   entryPoint: string;
